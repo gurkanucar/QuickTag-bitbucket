@@ -1,4 +1,4 @@
-# Quick Tag 🏷️
+# Quick Tag
 
 Chrome extension to quickly generate Bitbucket git tags for triggering OpenShift and WebLogic deployments.
 
@@ -8,8 +8,6 @@ One-click tag creation with correct naming patterns:
 - OpenShift: `deployto-{timestamp}_openshift-dev`, `deployto-{timestamp}_openshift-test`, `runUatDeploy-{timestamp}_openshift-uat`
 - WebLogic: custom environments (fully editable)
 - Auto timestamp in `YYYYMMDDTHHmm` format
-- Copy to clipboard instantly
-- Dark/light theme + persistent settings
 
 ## Screenshots
 
@@ -30,17 +28,5 @@ One-click tag creation with correct naming patterns:
 
 The extension icon appears in your toolbar.
 
-## Folder structure
-
-```
-quick-tag/
-├── popup.html
-├── popup.js
-├── manifest.json
-├── assets/             # screenshots
-└── icons/
-```
-
-Simple, fast, gets the job done.
 
 MIT License
